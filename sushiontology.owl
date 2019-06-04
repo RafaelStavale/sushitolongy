@@ -71,6 +71,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Amora -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Amora">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Fruta"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Arroz -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Arroz">
@@ -88,6 +96,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Banana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Banana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Fruta"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Bolinho -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Bolinho">
@@ -100,6 +116,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Chirashizushi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Coco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Coco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Fruta"/>
     </owl:Class>
     
 
@@ -129,6 +153,14 @@
     <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Formato -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Formato"/>
+    
+
+
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Framboesa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Framboesa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Fruta"/>
+    </owl:Class>
     
 
 
@@ -212,6 +244,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Kiwi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Kiwi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Fruta"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Legume -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Legume">
@@ -224,6 +264,22 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Makizushi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Manga -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Manga">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Fruta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Morango -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Morango">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Fruta"/>
     </owl:Class>
     
 
@@ -411,6 +467,18 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Amora"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Banana"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Coco"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Framboesa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Kiwi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Manga"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Morango"/>
+        </owl:members>
+    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
