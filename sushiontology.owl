@@ -88,6 +88,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Atum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Atum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Peixe"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Açucar -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Açucar">
@@ -116,6 +124,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Chirashizushi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Tigela"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -184,6 +198,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Futomaki">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Comum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -200,6 +220,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Gomokuzushi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Tigela"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -216,6 +242,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Gunkanzushi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Pacote"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -224,6 +256,18 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Hossomaki">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#usaIngrediente"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Comida"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Comum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -232,6 +276,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Inarizushi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Pacote"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -240,6 +290,13 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Kappamaki">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Hossomaki"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#usaIngrediente"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Pepino"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Tekkamaki"/>
     </owl:Class>
     
 
@@ -264,6 +321,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Makizushi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Comum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -288,6 +351,24 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Narezushi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#usaIngrediente"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Peixe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#usaIngrediente"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Comum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -296,6 +377,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Nigirizushi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Bolinho"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -304,6 +391,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Oshizushi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Bolinho"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -328,6 +421,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Peixe">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Frutos_do_Mar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Pepino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Pepino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Fruta"/>
     </owl:Class>
     
 
@@ -371,10 +472,35 @@
     
 
 
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Comum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Comum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Invertido"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Invertido -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Invertido">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sal -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sal">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Tempero"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Salmão -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Salmão">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Peixe"/>
     </owl:Class>
     
 
@@ -391,6 +517,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Comida"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#usaIngrediente"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Arroz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -399,6 +531,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Tekkamaki">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Hossomaki"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#usaIngrediente"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Atum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -407,6 +545,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Temaki">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Cone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -431,6 +575,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Uramaki">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Invertido"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -503,20 +653,31 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Chirashizushi"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Edomae_Chirashizushi"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Futomaki"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Gomokuzushi"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Gunkanzushi"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Hossomaki"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Inarizushi"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Kappamaki"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Makizushi"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Narezushi"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Nigirizushi"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Oshizushi"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Tekkamaki"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Temaki"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Uramaki"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Fruta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Frutos_do_Mar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Grão"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Legume"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Ovo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Queijo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Tempero"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Verdura"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
