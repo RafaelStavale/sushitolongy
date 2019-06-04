@@ -66,6 +66,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Alga">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Frutos_do_Mar"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Peixe"/>
     </owl:Class>
     
 
@@ -74,6 +75,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Arroz">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Grão"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Gergelim"/>
     </owl:Class>
     
 
@@ -321,6 +323,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Shoyo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Shoyo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Tempero"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sushi">
@@ -406,8 +416,19 @@
         <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Açucar"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Sal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Shoyo"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Vinagre"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Wasabi"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Bolinho"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Cone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Pacote"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Tigela"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
