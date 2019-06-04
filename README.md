@@ -9,4 +9,5 @@ Questões de Competência:
 - Existem sushis sem peixe?
 - Existem etapas de preparo comuns para todos os tipos de sushi?
 - Quais os formatos de sushi?
-- Quais os temperos mais comuns entre os pratos de sushi?
+- Quais os 3 temperos mais comuns entre os pratos de sushi?
+- 
