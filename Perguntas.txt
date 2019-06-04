@@ -1,10 +1,10 @@
 Ontologia do sushi:
 
 - Cada sushi contem vinagre como ingrediente?
-- Quais s„o as partes dos pratos de sushi?
-- Quais s„o os tipos de sushi que n„o s„o do Jap„o?
+- Quais s√£o as partes dos pratos de sushi?
+- Quais s√£o os tipos de sushi que n√£o s√£o do Jap√£o?
 
 - Existem sushis sem peixe?
 - Existem etapas de preparo comuns para todos os tipos de sushi?
 - Quais os formatos de sushi?
-- Quais os temperos mais comuns entre os pratos de sushi?
+- Quais os 3 temperos mais comuns entre os pratos de sushi?
