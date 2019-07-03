@@ -196,6 +196,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Brasil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Brasil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Origem"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Chirashizushi -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Chirashizushi">
@@ -204,6 +212,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Tigela"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#originalDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Japão"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -264,6 +278,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Estados_Unidos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Estados_Unidos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Origem"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Formato -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Formato"/>
@@ -304,6 +326,12 @@
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Comum"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#originalDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Japão"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -324,6 +352,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Tigela"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#originalDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Japão"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -348,6 +382,12 @@
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Pacote"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#originalDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Japão"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -362,6 +402,12 @@
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Comum"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#originalDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Japão"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -374,6 +420,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Pacote"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#originalDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Japão"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -429,6 +481,12 @@
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Comum"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#originalDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Japão"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -467,6 +525,12 @@
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Comum"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#originalDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Japão"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -479,6 +543,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Bolinho"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#originalDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Japão"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -499,6 +569,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Bolinho"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#originalDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Japão"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -625,6 +701,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Salmão">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Peixe"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#coberturaDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Nigirizushi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -663,6 +745,12 @@
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Cone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#originalDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Japão"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -691,6 +779,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#formaDe"/>
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Rolo_Invertido"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#originalDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/r/ontologies/2019/4/sushionthology#Japão"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
