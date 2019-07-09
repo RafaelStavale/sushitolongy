@@ -35,70 +35,22 @@ Tradicionalmente, é algum tipo de combinação de peixe fermentado ou salgado c
         <Class IRI="#Accompaniment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Chakinzushi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chirashizushi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chumaki"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Cousine"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CulinaryDish"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Datemaki"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DishClassification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Flavor"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Futomaki"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Gunkanzushi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Hakozushi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Hayazushi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Hosomaki"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Inarizushi"/>
+        <Class IRI="#Flavour"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ingredient"/>
     </Declaration>
     <Declaration>
         <Class IRI="#IngredientClassification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Kakinohazushi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Makizushi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Meharizushi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Narezushi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Nigirizushi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Oshizushi"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PresentationClassification"/>
@@ -113,19 +65,7 @@ Tradicionalmente, é algum tipo de combinação de peixe fermentado ou salgado c
         <Class IRI="#Recipe"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sasazushi"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Step"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sugatazushi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Temaki"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Uramaki"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Utensil"/>
@@ -140,7 +80,7 @@ Tradicionalmente, é algum tipo de combinação de peixe fermentado ou salgado c
         <ObjectProperty IRI="#hasAccompaniment"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasFlavor"/>
+        <ObjectProperty IRI="#hasFlavour"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasIngredient"/>
@@ -174,9 +114,6 @@ Tradicionalmente, é algum tipo de combinação de peixe fermentado ou salgado c
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#requires"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#subtypeOf"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasName"/>
@@ -321,9 +258,6 @@ Tradicionalmente, é algum tipo de combinação de peixe fermentado ou salgado c
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Makiyakinabe"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Makizushi"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Manaita"/>
@@ -549,25 +483,6 @@ Tradicionalmente, é algum tipo de combinação de peixe fermentado ou salgado c
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="#Accompaniment"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasFlavor"/>
-            <Class IRI="#Flavor"/>
-        </ObjectExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Chakinzushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Chirashizushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Chumaki"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Cousine"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="#hasName"/>
@@ -596,10 +511,6 @@ Tradicionalmente, é algum tipo de combinação de peixe fermentado ou salgado c
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Datemaki"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#DishClassification"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#presentedAs"/>
@@ -612,44 +523,6 @@ Tradicionalmente, é algum tipo de combinação de peixe fermentado ou salgado c
             <DataProperty IRI="#hasName"/>
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Futomaki"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Futomaki"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#subtypeOf"/>
-            <Class IRI="#Makizushi"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Gunkanzushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Hakozushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Hayazushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Hosomaki"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Hosomaki"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#subtypeOf"/>
-            <Class IRI="#Makizushi"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Inarizushi"/>
-        <Class IRI="#DishClassification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ingredient"/>
@@ -667,47 +540,23 @@ Tradicionalmente, é algum tipo de combinação de peixe fermentado ou salgado c
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ingredient"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasFlavor"/>
-            <Class IRI="#Flavor"/>
-        </ObjectExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Ingredient"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="#hasName"/>
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Kakinohazushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Makizushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Meharizushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Narezushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Nigirizushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Oshizushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Procedure"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasStep"/>
             <Class IRI="#Step"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recipe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFlavour"/>
+            <Class IRI="#Flavour"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -760,34 +609,11 @@ Tradicionalmente, é algum tipo de combinação de peixe fermentado ou salgado c
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Sasazushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Step"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#partOfProcedure"/>
             <Class IRI="#Procedure"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Sugatazushi"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Temaki"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Uramaki"/>
-        <Class IRI="#DishClassification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Uramaki"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#subtypeOf"/>
-            <Class IRI="#Makizushi"/>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Accompaniment"/>
@@ -819,16 +645,24 @@ Tradicionalmente, é algum tipo de combinação de peixe fermentado ou salgado c
         <NamedIndividual IRI="#Ball"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Flavor"/>
-        <NamedIndividual IRI="#Bitter"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Ingredient"/>
         <NamedIndividual IRI="#Carp"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#IngredientClassification"/>
         <NamedIndividual IRI="#CerealGrain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Chakinzushi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Chirashizushi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Chumaki"/>
     </ClassAssertion>
     <ClassAssertion>
         <Annotation>
@@ -905,6 +739,10 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
         <NamedIndividual IRI="#CutFish"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Datemaki"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="dc:description"/>
             <Literal>Descarta arroz fermentado.</Literal>
@@ -937,12 +775,24 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
         <NamedIndividual IRI="#Fukin"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Futomaki"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Accompaniment"/>
         <NamedIndividual IRI="#Gari"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Accompaniment"/>
         <NamedIndividual IRI="#Goma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Gunkanzushi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Hakozushi"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Utensil"/>
@@ -965,6 +815,10 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
         <NamedIndividual IRI="#Hanpen"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Hayazushi"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#IngredientClassification"/>
         <NamedIndividual IRI="#Herb"/>
     </ClassAssertion>
@@ -985,8 +839,20 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
         <NamedIndividual IRI="#Hone-nuki"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Hosomaki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Inarizushi"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Cousine"/>
         <NamedIndividual IRI="#JapanCousine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Kakinohazushi"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#CulinaryDish"/>
@@ -1029,12 +895,24 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
         <NamedIndividual IRI="#Meat"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Meharizushi"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="dc:description"/>
             <Literal>Sakê adocicado usado em receitas.</Literal>
         </Annotation>
         <Class IRI="#Ingredient"/>
         <NamedIndividual IRI="#Mirin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Narezushi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Nigirizushi"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Ingredient"/>
@@ -1055,6 +933,10 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
         </Annotation>
         <Class IRI="#Utensil"/>
         <NamedIndividual IRI="#Oshibako"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Oshizushi"/>
     </ClassAssertion>
     <ClassAssertion>
         <Annotation>
@@ -1213,8 +1095,8 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
         <NamedIndividual IRI="#SaltFish"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Flavor"/>
-        <NamedIndividual IRI="#Salty"/>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Sasazushi"/>
     </ClassAssertion>
     <ClassAssertion>
         <Annotation>
@@ -1265,16 +1147,16 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
         <NamedIndividual IRI="#SmokedSalmon"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Flavor"/>
-        <NamedIndividual IRI="#Spicy"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#PresentationClassification"/>
         <NamedIndividual IRI="#Spread"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Ingredient"/>
         <NamedIndividual IRI="#Sugar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Sugatazushi"/>
     </ClassAssertion>
     <ClassAssertion>
         <Annotation>
@@ -1293,8 +1175,16 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
         <NamedIndividual IRI="#SushiRice"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Flavor"/>
+        <Class IRI="#Flavour"/>
         <NamedIndividual IRI="#Sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Temaki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Temarizushi"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#CulinaryDish"/>
@@ -1319,6 +1209,10 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
     <ClassAssertion>
         <Class IRI="#Ingredient"/>
         <NamedIndividual IRI="#Tuna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DishClassification"/>
+        <NamedIndividual IRI="#Uramaki"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Accompaniment"/>
@@ -1818,6 +1712,11 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
         <ObjectProperty IRI="#requires"/>
         <NamedIndividual IRI="#RecipeDatemaki"/>
         <NamedIndividual IRI="#Makiyakinabe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFlavour"/>
+        <NamedIndividual IRI="#RecipeNarezushi"/>
+        <NamedIndividual IRI="#Bitter"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasIngredient"/>
@@ -2433,12 +2332,8 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
         <Class IRI="#Recipe"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasFlavor"/>
-        <Class IRI="#Accompaniment"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasFlavor"/>
-        <Class IRI="#Ingredient"/>
+        <ObjectProperty IRI="#hasFlavour"/>
+        <Class IRI="#Recipe"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasIngredient"/>
@@ -2497,8 +2392,8 @@ Fecha o hangiri com fukin e deixa descansar até atingir temperatura ambiente.</
         <Class IRI="#Accompaniment"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasFlavor"/>
-        <Class IRI="#Flavor"/>
+        <ObjectProperty IRI="#hasFlavour"/>
+        <Class IRI="#Flavour"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasIngredient"/>
